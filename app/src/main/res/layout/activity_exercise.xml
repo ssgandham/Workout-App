@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".ExerciseActivity">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarExercise"
+        android:layout_width="match_parent"
+        android:theme="@style/ToolbarTheme"
+        app:titleTextColor="@color/colorPrimary"
+        android:background="#ffffff"
+        android:layout_height="?android:attr/actionBarSize"/>
+
 </RelativeLayout>
