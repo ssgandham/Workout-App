@@ -11,23 +11,23 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="220dp"
+        android:layout_marginStart="4dp"
         android:contentDescription="@string/image"
         android:src="@drawable/lets_get_stronger"
         app:layout_constraintBottom_toTopOf="@id/flStart"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.386" />
 
     <FrameLayout
         android:id="@+id/flStart"
         android:layout_width="150dp"
         android:layout_height="150dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="356dp"
         android:background="@drawable/item_color_accent_border_ripple_background"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499">
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:layout_width="wrap_content"
